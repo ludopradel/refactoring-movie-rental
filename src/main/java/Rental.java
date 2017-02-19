@@ -11,10 +11,6 @@ public class Rental {
         return _movie;
     }
 
-    public int getDaysRented() {
-        return _daysRented;
-    }
-
     public double getCharge() {
         double result = 0;
         switch (_movie.getPriceCode()) {
